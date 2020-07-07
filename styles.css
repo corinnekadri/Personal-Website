@@ -4,9 +4,9 @@ body {
   margin:0;
   background-color: #967bb6; 
 
-}
-.header {
-  color:pink;
+
+header {
+  color:red;
 }
 
 <h1> {
@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content:space-around;
+}
 }
 
 
