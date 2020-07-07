@@ -1,13 +1,22 @@
 /*TODO: Add a background color or image to your website*/
 body {
- 
+ font-family: 'Arial', sans-serif;
+  margin:0;
   background-color: #967bb6; 
+
+}
+.header {
+  color:pink;
 }
 
-
-h1 {
+<h1> {
   color: blue;
   background-color: pink;
+}
+
+#main-image {
+  border-radius: 50%;
+  border: 3px solid black;
 }
 
 
