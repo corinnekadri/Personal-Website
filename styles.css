@@ -25,7 +25,6 @@ body {
   width: 100%;
 }
 #main-img {
-  display:block;
   border-radius: 100%;
   max-height: 410px;
   max-width:400px;
@@ -52,6 +51,21 @@ h2 {
 }
 .blog-pic{
   display:circle;
+}
+ul {
+  list-style-type: none;
+  padding: 1em;
+  background-color: #003046;
+  overflow: hidden;
+}
+li {
+  margin:1em;
+  display: inline;
+  border-right: 2px solid pink;
+  border-left: 2px solid pink;
+  border-top: 2px solid pink;
+  border-bottom: 2px solid pink
+}
 }
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
