@@ -41,7 +41,7 @@ body {
 
 h2 { 
   font-family: 'Noto Sans Jp', sans-serif;
-  font-size: 3em;  
+  font-size: 2em;  
   color: black;  
 }
 
@@ -51,18 +51,20 @@ h2 {
 }
 ul {
   list-style-type: none;
-  padding: 1em;
+  background-color:#98ffdd;
+  padding: em;
   
   overflow: hidden;
 }
 li {
-  margin:1em;
   display: inline;
-  border-right: 2px solid pink;
-  border-left: 2px solid pink;
-  border-top: 2px solid pink;
-  border-bottom: 2px solid pink
+  background-color:pink; 
 }
+
+li a{
+  color
+  text-decoration:none;
+  text-align: center;
 }
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
