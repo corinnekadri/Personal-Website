@@ -19,6 +19,12 @@ body {
   border: 3px solid black;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
 
 /*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
 
