@@ -10,17 +10,13 @@ body {
   padding-bottom:1em;
   text-align: center;
   color: pink;
-  background-color:d2fdef;
+  background-color:#fdfcf9;
 }
 
 
 
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-}
-}
+<!--.container display: flex; flex-direction: row; justify-content:space-around}-->
+
 .center{
   width: 100%;
 }
@@ -31,27 +27,27 @@ body {
   width:50%;
   margin-bottom:2em; 
   margin-top:2em;
-  border: 6px solid #98ffdd;
+  border: 8px solid #98ffdd;
 }
 .home-text {
   margin: auto;
   margin-top:1em;
   max-width: 70%;
-  text-align:justify;
+  text-align:center;
   font-size: 1em;
   background-color: #fdfcf2;
+  color: pink;
 }
 
-h2 {
-  /* ------ Extension: Fancy Font ------ */
+h2 { 
   font-family: 'Noto Sans Jp', sans-serif;
-  font-size: 3em;
-  
-  color: black;
-  
+  font-size: 3em;  
+  color: black;  
 }
+
 .blog-pic{
-  display:circle;
+  border-radius:25%;
+  
 }
 ul {
   list-style-type: none;
