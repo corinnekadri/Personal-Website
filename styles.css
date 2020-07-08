@@ -12,8 +12,14 @@ body {
   color: pink;
   background-color:#fdfcf9;
 }
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
-.center{
+  .center{
   width: 100%;
 }
 #main-img {
@@ -43,7 +49,7 @@ h1 {
 h2 { 
   font-family: 'Noto Sans Jp', sans-serif;
   font-size: 2em;  
-  color: black;  
+  color: #98ffdd;  
 }
 
 .blog-pic{
@@ -70,7 +76,11 @@ li {
   border-top: 8px solid pink;
   
 }
-
+article {
+    margin: 0 auto;
+    max-width: 70%;
+    padding-top: 2em;
+}
 .container{
   desplay:flex;
   flex-direction:row;
@@ -85,3 +95,5 @@ li {
   padding-bottom:2em;
 }
 
+.port-img {
+  max-height: 20em;
