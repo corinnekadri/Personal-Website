@@ -49,7 +49,7 @@ h1 {
 h2 { 
   font-family: 'Noto Sans Jp', sans-serif;
   font-size: 2em;  
-  color: #98ffdd;  
+  color: grey;  
 }
 
 .blog-pic{
@@ -60,6 +60,10 @@ ul {
   list-style-type: none;
   background-color:#98ffdd;
   overflow: hidden;
+  border-top: 8px solid #fdfcf9;
+  border-bottom: 12px solid #fdfcf9;
+  
+ 
   
 }
 
@@ -76,11 +80,15 @@ li {
   border-top: 8px solid pink;
   
 }
-article {
-    margin: 0 auto;
-    max-width: 70%;
-    padding-top: 2em;
+article{
+  text-align:left;
+  border:6px solid #98ffdd;
+  padding-top:0.5em;
+  margin-top:1em;
+  margin:0 auto;
+  
 }
+
 .container{
   desplay:flex;
   flex-direction:row;
