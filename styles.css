@@ -37,6 +37,7 @@ body {
 
 h1 {
   margin-bottom:1em;
+  font-size:3em;
 }
 
 h2 { 
@@ -52,8 +53,8 @@ h2 {
 ul {
   list-style-type: none;
   background-color:#98ffdd;
-  flex-shrink:3;
   overflow: hidden;
+  
 }
 
 li a{
@@ -61,14 +62,12 @@ li a{
   text-decoration:none;
   text-align: center;
   font-size:2em;
-  flex-shrink:3;
-  
   
 }
 li {
   display: inline;
   background-color:RGB(255,202,203);
-  flex-shrink:3;
+  border-top: 8px solid pink;
   
 }
 
@@ -77,10 +76,11 @@ li {
   flex-direction:row;
   flex-wrap:wrap;
   justify-content:space-around;
-  flex-shrink:1;
+  
 }
 
 .project{
+  
   padding-top:3em;
   padding-bottom:2em;
 }
