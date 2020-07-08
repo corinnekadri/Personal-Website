@@ -49,9 +49,13 @@ h1 {
 h2 { 
   font-family: 'Noto Sans Jp', sans-serif;
   font-size: 2em;  
-  color: grey;  
+  color: black;  
 }
-
+h4{
+  font-size:1em;
+  color:grey;
+  
+}
 .blog-pic{
   border-radius:25%;
   
@@ -82,7 +86,7 @@ li {
 }
 article{
   text-align:left;
-  border:6px solid #98ffdd;
+  border:9px ridge #98ffdd;
   padding-top:0.5em;
   margin-top:1em;
   margin:0 auto;
