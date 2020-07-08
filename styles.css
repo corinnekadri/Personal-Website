@@ -94,7 +94,7 @@ article{
 }
 
 .container{
-  desplay:flex;
+  display:flex;
   flex-direction:row;
   flex-wrap:wrap;
   justify-content:space-around;
