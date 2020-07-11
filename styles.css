@@ -38,7 +38,7 @@ p {
   text-align:center;
   font-size: 1em;
   background-color: #fdfcf2;
-  color: pink;
+  color: #ff93c8;
 }
 
 h1 {
@@ -81,7 +81,7 @@ li a{
 li {
   display: inline;
   background-color:RGB(255,202,203);
-  border-top: 8px solid pink;
+  border-top: 8px solid #ff9;
   
 }
 article{
