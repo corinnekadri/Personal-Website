@@ -17,6 +17,7 @@ p {
   font-size: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
+  color: black;
 }
 
   .center{
@@ -38,9 +39,9 @@ p {
   text-align:center;
   font-size: 1em;
   background-color: #fdfcf2;
-  color: #ff93c8;
+  color:black ;
 }
-
+//#ff93c8
 h1 {
   margin-bottom:1em;
   font-size:3em;
@@ -81,7 +82,7 @@ li a{
 li {
   display: inline;
   background-color:RGB(255,202,203);
-  border-top: 8px solid #ff9;
+  border-top: 8px solid ;
   
 }
 article{
